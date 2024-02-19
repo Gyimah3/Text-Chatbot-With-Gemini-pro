@@ -42,7 +42,7 @@ def send_message(message):
 # Initialize Streamlit app and session state for chat history
 st.set_page_config(page_title="Gideon's Chat Application")
 st.sidebar.header("Instructions")
-st.sidebar.write("Interact with the model by typing in your message! Please note that this Chatbot cannot keep memory of immediate chat.")
+st.sidebar.write("Interact with the model by typing in your message! Please note that this Chatbot can only keep memory of immediate chat.")
 
 st.header("Gideon's Chat Application")
 
